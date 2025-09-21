@@ -1,0 +1,13 @@
+{
+  "setupTasks": [],
+  "tasks": {
+    "run": {
+      "name": "python3 streamlit_app.py",
+      "command": "python3 ./streamlit_app.py",
+      "runAtStart": true,
+      "preview": {
+        "port": 8080
+      }
+    }
+  }
+}
